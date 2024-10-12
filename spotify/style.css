@@ -1,0 +1,123 @@
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    body{
+        background: rgb(0,0,0);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 80%, rgba(80,80,80,1) 100%);
+        
+        }
+    .container{
+        max-width: 960px;
+        margin:0 auto;
+    }
+
+    .header-top{
+        padding: 2rem 0;
+    }
+
+    .header-top h1{
+    color:#fff;
+    
+    }
+    ul.menu{
+        display: flex; 
+        margin-top: 1rem;
+        font-size: 12px;
+        list-style-type: none;
+        
+    }
+    .menu li{
+        margin-right: 2rem;
+    }
+    ul.menu li a{
+        color:rgb(121, 121, 121);
+        text-decoration: none;
+        transition: .3s;
+        padding-bottom: 10px;
+        border-bottom: 2px solid transparent;
+    }
+    ul.menu li a:hover{
+        color:rgb(255, 255, 255);
+        
+        border-bottom: 2px solid rgb(96, 255, 72);
+
+    }
+    .section-title{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        border-bottom: 1px solid rgb(53, 53, 53);
+        padding-bottom: 1rem;
+
+    }
+    .section-r a{
+        color: #fff;
+        margin-left:1rem;
+
+    }
+    .section-grid{
+        margin-top: 1rem;
+        display:grid;
+        grid-template-columns:repeat(6,1fr);
+        grid-gap:1rem;
+    }
+    .sec-img img{
+        width: 100%;
+    }
+    .section-item{
+
+        color:#fff;
+        font-size: 10px;
+    }
+    
+    .sec-info h3{
+        margin: .5rem 0;
+
+    }
+    .sec-info p{
+        color:rgb(121, 121, 121);
+    }
+
+    footer{
+        margin-top: 2rem;
+        color: #fff;
+        text-align: cen ter;
+    }
+    .footer-grid{
+        padding-top: .5rem;
+        border-top:  1px solid rgb(53, 53, 53);
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-gap:1rem;
+    
+    }
+    .footer-item img{
+        width: 100%;}
+
+    .footer-item p{
+        color:rgb(121, 121, 121);
+        font-size: 14px;
+        margin-top: .5rem;
+        margin-bottom: 25rem;
+    }
+
+    .footer-img{
+        position: relative;
+    }
+    .footer-img img{
+        opacity: .8;   
+        
+}
+    .footer-img h2{
+        z-index: 10;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
